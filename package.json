@@ -1,0 +1,39 @@
+{
+  "name": "electron-updater-didi",
+  "version": "1.0.0",
+  "description": "Based on electron-updater, add abort request event and emit download-progress 100 percent when get package from cache ",
+  "main": "out/main.js",
+  "files": [
+		"out"
+	],
+	"dependencies": {
+		"@types/semver": "^7.3.5",
+		"builder-util-runtime": "8.7.5",
+		"fs-extra": "^10.0.0",
+		"js-yaml": "^4.1.0",
+		"lazy-val": "^1.0.4",
+		"lodash.escaperegexp": "^4.1.2",
+		"lodash.isequal": "^4.5.0",
+		"semver": "^7.3.5"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.11",
+		"@types/js-yaml": "^4.0.1",
+		"@types/lodash.escaperegexp": "^4.1.6",
+		"@types/lodash.isequal": "^4.5.5"
+	},
+	"typings": "./out/main.d.ts",
+	"publishConfig": {
+		"tag": "next"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron-updater-didi", "electron-updater"
+  ],
+  "author": "Lares Wang",
+  "license": "MIT",
+  "repository": "https://github.com/vonechain-didi/electron-updater-didi",
+  "homepage": "https://github.com/vonechain-didi/electron-updater-didi"
+}
