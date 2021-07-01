@@ -1,5 +1,5 @@
 {
-  "name": "electron-updater-didi",
+  "name": "didi-updater",
   "version": "1.0.1",
   "description": "Based on electron-updater, add abort request event and emit download-progress 100 percent when get package from cache ",
   "main": "out/main.js",
