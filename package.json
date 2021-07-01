@@ -1,6 +1,6 @@
 {
-  "name": "didi-updater",
-  "version": "1.0.1",
+  "name": "electron-autoupdate-didi",
+  "version": "1.0.2",
   "description": "Based on electron-updater, add abort request event and emit download-progress 100 percent when get package from cache ",
   "main": "out/main.js",
   "files": [
